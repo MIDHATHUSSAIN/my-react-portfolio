@@ -1,0 +1,54 @@
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+#textt{
+    font-size: 20px;
+    font-family: 'Arial Narrow';
+    color: black;
+    font-weight: bold;
+}
+h1{
+    background-color: white;
+    width:100vw;
+    height: 100px;
+}
+.Pink{
+    border-radius: 5px;
+    border: none;
+   
+}
+
+.card{
+    margin-bottom: 40px;
+}
+.mi{
+    height: 40px;
+}
+.ko{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    width:30rem;
+}
+body{
+    background-color: #ecebeb;
+}
+@media (width <= 730px){
+    .card{
+        width:18rem;
+    }
+}
+@media (width <= 500px){
+    .card{
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+       
+    }
+}
